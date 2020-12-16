@@ -16,7 +16,7 @@ nav{
 }
 /*set left CSS*/
 #left{
-    background-color: rgb(164, 219, 132);
+    background-color: rgb(238, 245, 234);
     width: 25%;
     height: 100%;
     float: left;
@@ -40,39 +40,56 @@ ul:hover{
 #time{
    
     height: auto;
-    font-size: 30px;
+    font-size: 17px;
     width: 100%;
-    text-align: center;
+    float: right;
+
 
     
 }
 #date{
     height: auto;
     width: 100%;
-    font-size: 30px;
+    font-size: 17px;
    
-    text-align: center;
-}
+    float: right;}
 #sub_date{
     width: 100%;
-    font-size: 30px;
-    text-align: center;
+    font-size: 17px;
+    float: right;
 }
 hr{
     color: black;
 }
-a{
-    text-decoration: none;
-    color: black;
-}
-#sub_content{
+button{
+    border-radius: 5px;
     width: 100%;
-    height: auto;
-    font-size: 23px;
-    padding: 3px;
-    
+    height: 50px;
+    font-size: 24px;
+    border-style: none;
+    text-align: left;
 }
-#sub_content:hover{
-    background-color: rgb(150, 139, 139);
-
+button:hover{
+    background-color: rgb(189, 165, 165);
 }
+/*nav*/
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
