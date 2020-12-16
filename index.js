@@ -56,3 +56,12 @@ function open_photoshopcs6()
 {
     window.location = "https://drive.google.com/drive/folders/12Tgb59XcSKMBy3oPuFwnYLqus8UF072h?usp=sharing"
 }
+function getRandomColor() {
+  var letters = '0123456789ABCDEF';
+  var colors = '#';
+  for (var i = 0; i < 6; i++) {
+    colors += letters[Math.floor(Math.random() * 16)];
+  }
+  document.getElementById('hello').style.color = colors
+}
+setInterval(getRandomColor,1000)
