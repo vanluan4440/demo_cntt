@@ -16,7 +16,7 @@ nav{
 }
 /*set left CSS*/
 #left{
-    background-color: cadetblue;
+    background-color: rgb(164, 219, 132);
     width: 25%;
     height: 100%;
     float: left;
@@ -27,7 +27,6 @@ nav{
     width: 74%;
     height: 100%;
     float: left;
-    padding: 2px;
 }
 ul:hover{
     background-color: rgb(132, 210, 212);
@@ -61,4 +60,19 @@ ul:hover{
 }
 hr{
     color: black;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+#sub_content{
+    width: 100%;
+    height: auto;
+    font-size: 23px;
+    padding: 3px;
+    
+}
+#sub_content:hover{
+    background-color: rgb(150, 139, 139);
+
 }
