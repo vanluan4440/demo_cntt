@@ -1,0 +1,64 @@
+/*CSS for body*/
+body{
+    height:1000px;
+}
+/*CSS for bar*/
+nav{
+    height: 150px;
+    width: 100%;
+    background-color: rgb(235, 188, 188);
+}
+/*CSS for content*/
+#main_page{
+    width: 100%;
+    height: 80%;
+    background-color: whitesmoke;
+}
+/*set left CSS*/
+#left{
+    background-color: cadetblue;
+    width: 25%;
+    height: 100%;
+    float: left;
+}
+/*set right CSS*/
+#right{
+    background-color: cadetblue;
+    width: 74%;
+    height: 100%;
+    float: left;
+    padding: 2px;
+}
+ul:hover{
+    background-color: rgb(132, 210, 212);
+}
+/*CSS for footer*/
+#footer{
+    height: 20%;
+    width: 100%;
+    background-color: rgb(146, 141, 141);
+}
+#time{
+   
+    height: auto;
+    font-size: 30px;
+    width: 100%;
+    text-align: center;
+
+    
+}
+#date{
+    height: auto;
+    width: 100%;
+    font-size: 30px;
+   
+    text-align: center;
+}
+#sub_date{
+    width: 100%;
+    font-size: 30px;
+    text-align: center;
+}
+hr{
+    color: black;
+}
