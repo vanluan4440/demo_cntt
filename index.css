@@ -23,8 +23,9 @@ nav{
 }
 /*set right CSS*/
 #right{
-    background-color: whitesmoke;
-    width: 74%;
+    background-image: url(./img/git-logo.jpg);
+    background-size: 100%;
+    width: 75%;
     height: 100%;
     float: left;
 }
@@ -33,9 +34,10 @@ ul:hover{
 }
 /*CSS for footer*/
 #footer{
-    height: 20%;
+    height: 35%;
     width: 100%;
-    background-color: rgb(146, 141, 141);
+    background-image: url(./img/footer.jpeg);
+    background-size: 50%;
 }
 #time{
    
@@ -92,4 +94,8 @@ button:hover{
   .topnav a:hover {
     background-color: #ddd;
     color: black;
+  }
+  #none:hover{
+      background-color: #333;
+      color: white;
   }
