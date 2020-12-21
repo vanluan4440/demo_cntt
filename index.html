@@ -7,6 +7,7 @@
     <title>App</title>
     <link rel="stylesheet" href="index.css">
     <script src="index.js"></script>
+
 </head>
 
 <body>
@@ -16,33 +17,30 @@
         <a id="none"><div id="sub_date"></div></a>
         <a id="none"><div id="time"></div></a>
     </div>
-    <div id="header">
-        <h1 style="text-align: center;">ĐỐI THOẠI
-            GIỮA HSSV VÀ BAN GIÁM HIỆU NHÀ TRƯỜNG NĂM HỌC 2020 - 2021 <br>
-            THỜI GIAN TỔ CHỨC: 08 giờ 00  <br>  NGÀY TỔ CHỨC: 22/12/2020   <br>
-            ĐỊA ĐIỂM: Hội trường mở trệt B
-            </h1>
-    </div>
-    <div class="container">
-        <div class="login-form">
-            <form action="" method="post">
-                <div class="input-box">
-                    <i ></i>
-                    <input type="text" placeholder="Nhập mã số sinh viên">
-                </div>
-                <div class="btn-box">
-                    <button type="submit">
-                        Nhận QR
-                    </button>
-                </div>
+    <div id="main_page">
+        <div id="header">
+                <h1 style="text-align: center;">ĐỐI THOẠI
+                GIỮA HSSV VÀ BAN GIÁM HIỆU NHÀ TRƯỜNG NĂM HỌC 2020 - 2021 <br>
+                THỜI GIAN TỔ CHỨC: 08 giờ 00  <br>  NGÀY TỔ CHỨC: 22/12/2020   <br>
+                ĐỊA ĐIỂM: Hội trường mở trệt B
+             </h1>
+        </div>
+        <div id="form">
+            <form action="#">
+                <input id="pass" type="text" placeholder="Nhập mã">
+                <button onclick="index()">Nhận QR</button>
+                <div id="erro" style="color: red;"></div>
+                
             </form>
+            <img id="img" src="">
+
         </div>
-        </div>
-        <div id="QR">
-            
+    
+        <div id="form">
+            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfDaMYBYpMJLphS21WAZnAAnB25ro_idD5_IaTcwvFZqScmQw/viewform?embedded=true" width="640" height="1000" frameborder="0" marginheight="0" marginwidth="0" >Loading…</iframe>
         </div>
 
-    <div id="main_page">
+    
         
 
     </div>
