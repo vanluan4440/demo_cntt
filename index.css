@@ -3,33 +3,9 @@
 body{
     height:1000px;
 }
-/*CSS for bar*/
-nav{
-    height: 150px;
-    width: 100%;
-    background-color: rgb(235, 188, 188);
-}
-/*CSS for content*/
-/*CSS for footer*/
-#time{
-   
-    height: auto;
-    font-size: 17px;
-    width: 100%;
-    float: right;
-
-
-    
-}
-#date{
-    height: auto;
-    width: 100%;
-    font-size: 17px;
-   
-    float: right;}
 #sub_date{
     width: 100%;
-    font-size: 17px;
+    font-size: 24px;
     float: right;
 }
 
@@ -37,12 +13,13 @@ nav{
 .topnav {
     background-color: rgb(128, 129, 131);
     overflow: hidden;
-    height: 50px;
+    height: auto;
+    width: 100%;
   }
   
   /* Style the links inside the navigation bar */
   .topnav a {
-    float: left;
+    
     color: #f2f2f2;
     text-align: center;
     padding: 14px 16px;
@@ -50,14 +27,20 @@ nav{
     font-size: 17px;
   }
 #main_page{
-    padding-top: 15px;
+    margin-top: 10px;
 }
 #form{
     width: 100%;
-    height: auto;
+    height:auto;
     text-align: center;
     margin: auto;
+    
 }
 #QR{
-    height: 150px;
+    height:auto;
+    
+}
+#google{
+    height: 300px;
+    width: auto;
 }
