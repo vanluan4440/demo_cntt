@@ -18,7 +18,7 @@ nav{
 #left{
     background-color: rgb(238, 245, 234);
     width: 25%;
-    height: 100%;
+    height: 132%;
     float: left;
 }
 /*set right CSS*/
@@ -26,7 +26,7 @@ nav{
     background-image: url(./img/git-logo.jpg);
     background-size: 100%;
     width: 75%;
-    height: 100%;
+    height: 132%;
     float: left;
 }
 ul:hover{
