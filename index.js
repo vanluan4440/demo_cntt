@@ -2,22 +2,14 @@ function time(){
     var date = new Date
     gio = date.getHours()
     phut = date.getMinutes()
-    giay = date.getSeconds()
     if (phut < 10){
-        document.getElementById('time').innerHTML ='Timer:' + gio + ':'+"0"+ phut + ':'+ giay
+        document.getElementById('time').innerHTML ='Timer:' + gio + ':'+"0"+ phut
     }
     else if (phut > 10){
-        document.getElementById('time').innerHTML ='Timer:' + gio + ':'+ phut + ':'+ giay
-    }
-    if (giay <10){
-        document.getElementById('time').innerHTML ='Timer:' + gio + ':'+ phut + ':'+ "0"+ giay
-    }
-    else if (giay >10){
-        document.getElementById('time').innerHTML ='Timer:' + gio + ':'+ phut + ':'+ giay
-    }
-    
+        document.getElementById('time').innerHTML ='Timer:' + gio + ':'+ phut
+    } 
 }
-setInterval(time,1)
+setInterval(time,1000)
 function day(){
     switch (new Date().getDay()) {
         case 0:
@@ -49,19 +41,11 @@ function date(){
     document.getElementById('sub_date').innerHTML ="Date: "+ time
 }
 setInterval(date,1000)
-function open_windown(){
-    window.location = "https://drive.google.com/drive/folders/1gVoUokYsI1d7G3u7VR39qwXg496b_9j1?usp=sharing"
-}
-function open_photoshopcs6()
-{
-    window.location = "https://drive.google.com/drive/folders/12Tgb59XcSKMBy3oPuFwnYLqus8UF072h?usp=sharing"
-}
-function getRandomColor() {
-  var letters = '0123456789ABCDEF';
-  var colors = '#';
-  for (var i = 0; i < 6; i++) {
-    colors += letters[Math.floor(Math.random() * 16)];
+function index(){
+  list = {3001190557:'Dinh Van Luan'}
+  for(const i in list){
+    return i
   }
-  document.getElementById('hello').style.color = colors
 }
-setInterval(getRandomColor,1000)
+console.log(index)
+
