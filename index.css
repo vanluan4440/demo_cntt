@@ -35,7 +35,7 @@ nav{
 
 /*nav*/
 .topnav {
-    background-color: #333;
+    background-color: rgb(128, 129, 131);
     overflow: hidden;
     height: 50px;
   }
@@ -49,51 +49,15 @@ nav{
     text-decoration: none;
     font-size: 17px;
   }
-*{
-    padding: 0px;
-    margin: 0px;
-    font-family: sans-serif;
-    box-sizing: border-box;
+#main_page{
+    padding-top: 15px;
 }
-
-.container{
+#form{
     width: 100%;
-    max-width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
+    height: auto;
+    text-align: center;
+    margin: auto;
 }
-.login-form{
-    width: 100%;
-    max-width: 400px;
-    margin: 20px auto;
-    background-color: #ffffff;
-    padding: 15px;
-    border: 2px dotted #cccccc;
-    border-radius: 10px;
-}
-
-.input-box{
-    margin-bottom: 10px;
-}
-.input-box input{
-    padding: 7.5px 15px;
-    width: 100%;
-    border: 1px solid #cccccc;
-    outline: none;
-}
-.btn-box{
-    text-align: right;
-    margin-top: 30px;
-}
-.btn-box button{
-    padding: 7.5px 15px;
-    border-radius: 2px;
-    background-color: #009999;
-    color: #ffffff;
-    border: none;
-    outline: none;
-}
-  
-#header{
-    margin-top: 50px;
+#QR{
+    height: 150px;
 }
