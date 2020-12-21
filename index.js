@@ -3,10 +3,10 @@ function time(){
     gio = date.getHours()
     phut = date.getMinutes()
     if (phut < 10){
-        document.getElementById('time').innerHTML ='Timer:' + gio + ':'+"0"+ phut
+        document.getElementById('time').innerHTML ='Timer: ' + gio + ':'+"0"+ phut
     }
     else if (phut > 10){
-        document.getElementById('time').innerHTML ='Timer:' + gio + ':'+ phut
+        document.getElementById('time').innerHTML ='Timer: ' + gio + ':'+ phut
     } 
 }
 setInterval(time,1000)
@@ -41,11 +41,17 @@ function date(){
     document.getElementById('sub_date').innerHTML ="Date: "+ time
 }
 setInterval(date,1000)
+
 function index(){
-  list = {3001190557:'Dinh Van Luan'}
-  for(const i in list){
-    return i
+  pass = document.getElementById("pass").value
+  if (pass == "itc.edu.vn"){
+    document.getElementById('img').src = "./img/qrcode.png";
+    document.getElementById('erro').innerHTML = ""
   }
+  else {
+    document.getElementById('erro').innerHTML = " Mã không hợp lệ"
+  }
+
 }
-console.log(index)
+
 
