@@ -1,8 +1,12 @@
 body{
     padding: 0px;
-    margin: auto;
 }
 #main{
+    background-color: cadetblue;
     padding: 0px;
+    margin: auto;
+    height: 700px;
+}
+#dangkiao{
     margin: auto;
 }
