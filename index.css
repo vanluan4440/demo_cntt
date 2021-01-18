@@ -1,12 +1,36 @@
-body{
-    padding: 0px;
-}
+
 #main{
-    background-color: cadetblue;
     padding: 0px;
     margin: auto;
-    height: 700px;
+    height: auto;
+    width: 100%;
+    background-image: url(img/br.jpg);
+}
+#main1{
+    padding: 0px;
+    margin: auto;
+    height: auto;
+    width: 100%;
+
 }
 #dangkiao{
+    width: 50%;
     margin: auto;
+    padding: 0;
 }
+h1{
+    text-align: center;
+    margin-top: 10px;
+}
+#img1{
+    width: 80%;
+    height: 90%;
+}
+#img2{
+    width: 20%;
+    height: 20%;
+}
+#lich{
+    text-align: center;}
+
+
